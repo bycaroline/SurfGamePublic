@@ -1,0 +1,248 @@
+/* area */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.canvasDisplay {
+    position: absolute;
+    width: 800px;
+    height: 700px;
+}
+
+.border {
+    position: absolute;
+    margin-left: 800px;
+    width: 100px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+}
+
+.sky {
+    height: 30px;
+    width: 100%;
+    background-image: url('sky.jpg')
+}
+
+.water {
+    height: 550px;
+    width: 100%;
+    background-image: url('ocean.jpg')
+}
+
+.beach {
+    background-color: rgb(232, 224, 246);
+    height: 120px;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    background-image: url('beach.jpg')
+}
+
+.wave {
+    position: absolute;
+    height: 45px;
+    width: 200px;
+    /* background-color: blue; */
+    background-image: url('wave.png')
+}
+
+/* npc */
+
+.nftOnWave {
+    position: absolute;
+    /* background-color: rgb(30, 181, 73); */
+    height: 73px;
+    width: 200px;
+    background-image: url('npcOnWave.png')
+}
+
+.npcLatOnWave {
+    position: absolute;
+    /* background-color: rgb(30, 181, 73); */
+    height: 73px;
+    width: 200px;
+    background-image: url('npcLatOnWave.png')
+}
+
+.npcMiddleOnWave {
+    position: absolute;
+    /* background-color: rgb(30, 181, 73); */
+    height: 73px;
+    width: 200px;
+    background-image: url('npcMiddleOnWave.png')
+}
+
+.npcStaticOnWave {
+    position: absolute;
+    /* background-color: rgb(30, 181, 73); */
+    height: 102px;
+    width: 200px;
+    background-image: url('npcStaticOnWave.png')
+}
+
+.npc {
+    position: absolute;
+    /* background-color: rgb(17, 22, 19); */
+    height: 105px;
+    width: 118px;
+    background-image: url('npc.png')
+}
+
+.npcRewerse {
+    position: absolute;
+    /* background-color: rgb(31, 241, 115); */
+    height: 105px;
+    width: 118px;
+    background-image: url('npcRewerse.png')
+}
+
+.npcMiddle {
+    position: absolute;
+    /* background-color: rgb(241, 31, 56); */
+    height: 105px;
+    width: 118px;
+    background-image: url('npcMiddle.png')
+}
+
+.npcLat {
+    position: absolute;
+    height: 105px;
+    width: 118px;
+    background-image: url('npcLat.png')
+}
+
+.npcStatic {
+    position: absolute;
+    height: 170px;
+    width: 80px;
+    background-image: url('SittingWithShadow.png')
+}
+
+.npcStaticSecond {
+    position: absolute;
+    height: 170px;
+    width: 80px;
+    background-image: url('SittingWithShadow.png')
+}
+
+/* surfer */
+
+.surferOnWave {
+    position: absolute;
+    height: 102px;
+    width: 200px;
+    background-image: url('surferOnWave.png')
+}
+
+.circle {
+    position: absolute;
+    background-image: url('surfer.png')
+}
+
+/* text and buttons  */
+
+.text {
+    height: 500px;
+    position: relative;
+    margin-top: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+h1 {
+    position: relative;
+    color: rgb(85, 202, 221);
+    font-family: helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+    margin-top: 80px;
+}
+
+h2 {
+    position: relative;
+    color: rgb(138, 138, 138);
+    font-family: helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: medium;
+    margin-top: 100px;
+    font-weight: 100;
+}
+
+h3 {
+    position: relative;
+    color: rgb(138, 138, 138);
+    font-family: helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: medium;
+    margin-top: 110px;
+    font-weight: 100;
+}
+
+p {
+    position: relative;
+    color: rgb(135, 135, 135);
+    margin-top: 200px;
+    font-family: helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: medium;
+
+    font-weight: 100;
+}
+
+button {
+    margin-top: 50px;
+    color: rgb(77, 77, 77);
+    letter-spacing: 0.1rem;
+    font-size: medium;
+    border: 1px solid #9f9f9f;
+    border-radius: 10%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-decoration: none;
+    font-family: helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+img {
+    margin-top: 100px;
+}
+
+.button:hover {
+    color: #696969;
+    border: solid 1px #6E9CAC;
+}
+
+.title {
+    position: absolute;
+}
+
+.desc {
+    position: absolute;
+    top: 40px;
+}
+
+.rules {
+    position: absolute;
+    top: 60px;
+}
+
+#startButton {
+    position: absolute;
+    top: 80px;
+}
+
+#startGameButton {
+    position: absolute;
+    top: 200px;
+}
